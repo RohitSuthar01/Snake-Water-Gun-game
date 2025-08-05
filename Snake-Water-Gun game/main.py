@@ -1,9 +1,10 @@
+import random
 """
 1 for the snake
 -1 for the water
 0 for the gun
 """
-computer = -1
+computer = random.choice([-1,0,1])
 you = input("Enter your Choice :")
 youDict = {'s':1,'w':-1,'g':0}
 youNum = youDict[you]
