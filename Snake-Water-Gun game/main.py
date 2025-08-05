@@ -10,7 +10,7 @@ youDict = {'s':1,'w':-1,'g':0}
 youNum = youDict[you]
 
 #check the condition for the cheaking the user imput and computer input
-
+print(f"Computer choices :{computer}")
 if(computer == youNum):
     print("it's Draw !")
 else:
@@ -39,3 +39,4 @@ else:
         print("You Win !")
 
     else:print("Smething went wrong !")
+
